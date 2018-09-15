@@ -1,4 +1,16 @@
-﻿Public Class CarRentalCostCalculator
+﻿' Author, date, and project information
+' Author: Keith Smith
+' Date: 15 September 2018
+' Project Info:
+' This project takes user inputs and calculates cost
+' And total miles driven for a hypothetical car rental
+
+
+' Options
+Option Strict On
+Option Explicit On
+
+Public Class CarRentalCostCalculator
     Private Sub CalculateButton_Click(sender As Object, e As EventArgs) Handles CalculateButton.Click
         ' Initialize Integer Variables
         Dim DaysRentedInteger As Integer
