@@ -21,8 +21,8 @@ Public Class CarRentalCostCalculator
         Dim TotalMilesDrivenDecimal As Decimal
         Dim TotalCostDecimal As Decimal
         ' Initialize Constants
-        Dim DAILY_RENTAL_RATE As Decimal = 75.0
-        Dim RATE_PER_MILE_DRIVEN As Decimal = 0.25
+        Dim DAILY_RENTAL_RATE As Decimal = 75D
+        Dim RATE_PER_MILE_DRIVEN As Decimal = 0.25D
 
         ' #1. Make sure that all data entry fields have data in them.
         If BeginOdometerTextBox.Text Is String.Empty Or
