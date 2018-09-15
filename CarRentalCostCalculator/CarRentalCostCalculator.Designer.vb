@@ -70,7 +70,7 @@ Partial Class CarRentalCostCalculator
         Me.DaysRentedLabel.Name = "DaysRentedLabel"
         Me.DaysRentedLabel.Size = New System.Drawing.Size(134, 25)
         Me.DaysRentedLabel.TabIndex = 4
-        Me.DaysRentedLabel.Text = "Days rented:"
+        Me.DaysRentedLabel.Text = "&Days rented:"
         '
         'EndOdometerTextBox
         '
@@ -86,7 +86,7 @@ Partial Class CarRentalCostCalculator
         Me.EndOdometerLabel.Name = "EndOdometerLabel"
         Me.EndOdometerLabel.Size = New System.Drawing.Size(181, 25)
         Me.EndOdometerLabel.TabIndex = 2
-        Me.EndOdometerLabel.Text = "Ending odometer:"
+        Me.EndOdometerLabel.Text = "E&nding odometer:"
         '
         'BeginOdometerTextBox
         '
@@ -102,7 +102,7 @@ Partial Class CarRentalCostCalculator
         Me.BeginOdometerLabel.Name = "BeginOdometerLabel"
         Me.BeginOdometerLabel.Size = New System.Drawing.Size(210, 25)
         Me.BeginOdometerLabel.TabIndex = 0
-        Me.BeginOdometerLabel.Text = "Beginning odometer:"
+        Me.BeginOdometerLabel.Text = "&Beginning odometer:"
         '
         'ResultsGroupBox
         '
@@ -158,7 +158,7 @@ Partial Class CarRentalCostCalculator
         Me.ClearButton.Name = "ClearButton"
         Me.ClearButton.Size = New System.Drawing.Size(224, 86)
         Me.ClearButton.TabIndex = 17
-        Me.ClearButton.Text = "Clear"
+        Me.ClearButton.Text = "Cl&ear"
         Me.ClearButton.UseVisualStyleBackColor = True
         '
         'CalculateButton
@@ -167,7 +167,7 @@ Partial Class CarRentalCostCalculator
         Me.CalculateButton.Name = "CalculateButton"
         Me.CalculateButton.Size = New System.Drawing.Size(224, 86)
         Me.CalculateButton.TabIndex = 16
-        Me.CalculateButton.Text = "Calculate"
+        Me.CalculateButton.Text = "&Calculate"
         Me.CalculateButton.UseVisualStyleBackColor = True
         '
         'ExitButton
@@ -176,7 +176,7 @@ Partial Class CarRentalCostCalculator
         Me.ExitButton.Name = "ExitButton"
         Me.ExitButton.Size = New System.Drawing.Size(224, 86)
         Me.ExitButton.TabIndex = 15
-        Me.ExitButton.Text = "Exit"
+        Me.ExitButton.Text = "E&xit"
         Me.ExitButton.UseVisualStyleBackColor = True
         '
         'CarRentalCostCalculator
