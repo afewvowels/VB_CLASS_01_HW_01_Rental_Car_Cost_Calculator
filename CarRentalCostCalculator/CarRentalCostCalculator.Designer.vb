@@ -121,6 +121,7 @@ Partial Class CarRentalCostCalculator
         '
         Me.TotalCostTextBox.Location = New System.Drawing.Point(28, 172)
         Me.TotalCostTextBox.Name = "TotalCostTextBox"
+        Me.TotalCostTextBox.ReadOnly = True
         Me.TotalCostTextBox.Size = New System.Drawing.Size(251, 31)
         Me.TotalCostTextBox.TabIndex = 9
         '
@@ -137,6 +138,7 @@ Partial Class CarRentalCostCalculator
         '
         Me.MilesDrivenTextBox.Location = New System.Drawing.Point(28, 80)
         Me.MilesDrivenTextBox.Name = "MilesDrivenTextBox"
+        Me.MilesDrivenTextBox.ReadOnly = True
         Me.MilesDrivenTextBox.Size = New System.Drawing.Size(251, 31)
         Me.MilesDrivenTextBox.TabIndex = 7
         '
@@ -151,6 +153,7 @@ Partial Class CarRentalCostCalculator
         '
         'ClearButton
         '
+        Me.ClearButton.DialogResult = System.Windows.Forms.DialogResult.Cancel
         Me.ClearButton.Location = New System.Drawing.Point(288, 352)
         Me.ClearButton.Name = "ClearButton"
         Me.ClearButton.Size = New System.Drawing.Size(224, 86)
@@ -178,8 +181,10 @@ Partial Class CarRentalCostCalculator
         '
         'CarRentalCostCalculator
         '
+        Me.AcceptButton = Me.CalculateButton
         Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.CancelButton = Me.ClearButton
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.UserInformationGroupBox)
         Me.Controls.Add(Me.ResultsGroupBox)
